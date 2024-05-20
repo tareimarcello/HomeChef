@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="765.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.AdviseBoarcControllerInterf2">
+    <children>
+        <FontAwesomeIcon fill="#fff6f6" glyphName="USER" layoutX="690.0" layoutY="51.0" size="40" text="" wrappingWidth="35.19999999999993" />
+        <Group fx:id="extGroup1" layoutX="27.0" layoutY="127.0">
+            <children>
+                <Button fx:id="home1" layoutY="8.0" mnemonicParsing="false" onAction="#visit" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
+                    <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="USER" size="40" strokeWidth="0.5" wrappingWidth="29.942844480276108" />
+                    </graphic>
+                </Button>
+                <Button fx:id="chat1" layoutX="63.0" mnemonicParsing="false" onAction="#touchChat" prefHeight="75.0" prefWidth="267.0" style="-fx-background-color: transparent;">
+                    <graphic>
+                        <Group fx:id="group1">
+                            <children>
+                                <Text layoutX="72.0" layoutY="48.576171875" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lastmessage" text="..." wrappingWidth="278.45692443847656">
+                                    <font>
+                                        <Font size="36.0" />
+                                    </font>
+                                </Text>
+                                <Text fx:id="userid" layoutX="65.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="listUser" text="Userid : #" />
+                            </children>
+                        </Group>
+                    </graphic>
+                </Button>
+            </children>
+        </Group>
+        <Text layoutX="17.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textSubTitle" text="Recently chatted ">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Text>
+        <Text layoutX="450.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" styleClass="textSubTitle" text="Number of visits on my profile:">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="12.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textSubTitle" text="Recently visited ">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Text>
+        <Line endX="350.0" endY="319.23333740234375" layoutX="16.0" layoutY="-195.0" startX="350.0" startY="667.0" styleClass="line" />
+        <PieChart layoutX="535.0" layoutY="182.0" prefHeight="222.0" prefWidth="231.0" />
+        <Group fx:id="group4" layoutX="34.0" layoutY="460.0">
+            <children>
+                <Button fx:id="home4" layoutY="10.583984375" mnemonicParsing="false" onAction="#visit" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
+                    <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="USER" size="40" strokeWidth="0.5" wrappingWidth="29.942844480276108" />
+                    </graphic>
+                </Button>
+                <Button fx:id="chat4" layoutX="41.0" layoutY="46.583984375" mnemonicParsing="false" onAction="#touchChat" style="-fx-background-color: rgba(139, 178, 249, 1);" styleClass="Back_Row">
+                    <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="PAPER_PLANE" layoutX="69.0" size="20" strokeWidth="0.5" />
+                    </graphic>
+                </Button>
+                <Group layoutX="-18.0">
+                    <children>
+                        <Text fx:id="des111" layoutX="98.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lastmessage" text="About me :" wrappingWidth="297.7902374267578">
+                            <font>
+                                <Font size="36.0" />
+                            </font>
+                        </Text>
+                        <Text fx:id="uid111" layoutX="75.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="listUser" text="Userid  : #" />
+                        <Text fx:id="goal111" layoutX="90.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lastmessage" text="Working On :" wrappingWidth="307.3902130126953">
+                            <font>
+                                <Font size="36.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </Group>
+            </children>
+        </Group>
+        <Group layoutX="41.0" layoutY="651.0" />
+        <ImageView fitHeight="234.0" fitWidth="281.0" layoutX="439.0" layoutY="526.0">
+            <image>
+                <Image url="@../homepageEdit/photo/4369.png" />
+            </image>
+        </ImageView>
+        <PieChart fx:id="graphVisit" layoutX="373.0" layoutY="179.0" prefHeight="357.0" prefWidth="379.0" />
+        <Button fx:id="chat" layoutX="100.0" layoutY="221.0" mnemonicParsing="false" onAction="#touchChat" prefHeight="75.0" prefWidth="267.0" style="-fx-background-color: transparent;" />
+        <Group fx:id="group5" layoutX="32.0" layoutY="554.0">
+            <children>
+                <Button fx:id="home5" layoutY="10.583984375" mnemonicParsing="false" onAction="#visit" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
+                    <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="USER" size="40" strokeWidth="0.5" wrappingWidth="29.942844480276108" />
+                    </graphic>
+                </Button>
+                <Button fx:id="chat5" layoutX="41.0" layoutY="46.583984375" mnemonicParsing="false" onAction="#touchChat" style="-fx-background-color: rgba(139, 178, 249, 1);" styleClass="Back_Row">
+                    <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="PAPER_PLANE" layoutX="69.0" size="20" strokeWidth="0.5" />
+                    </graphic>
+                </Button>
+                <Group layoutX="-18.0">
+                    <children>
+                        <Text fx:id="des1111" layoutX="98.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lastmessage" text="About me :" wrappingWidth="297.7902374267578">
+                            <font>
+                                <Font size="36.0" />
+                            </font>
+                        </Text>
+                        <Text fx:id="uid1111" layoutX="75.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="listUser" text="Userid  : #" />
+                        <Text fx:id="goal1111" layoutX="90.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lastmessage" text="Working On :" wrappingWidth="307.3902130126953">
+                            <font>
+                                <Font size="36.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </Group>
+            </children>
+        </Group>
+        <Group fx:id="group6" layoutX="31.0" layoutY="648.0">
+            <children>
+                <Button fx:id="home6" layoutY="10.583984375" mnemonicParsing="false" onAction="#visit" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
+                    <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="USER" size="40" strokeWidth="0.5" wrappingWidth="29.942844480276108" />
+                    </graphic>
+                </Button>
+                <Button fx:id="chat6" layoutX="41.0" layoutY="46.583984375" mnemonicParsing="false" onAction="#touchChat" style="-fx-background-color: rgba(139, 178, 249, 1);" styleClass="Back_Row">
+                    <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="PAPER_PLANE" layoutX="69.0" size="20" strokeWidth="0.5" />
+                    </graphic>
+                </Button>
+                <Group layoutX="-18.0">
+                    <children>
+                        <Text fx:id="des11111" layoutX="98.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lastmessage" text="About me :" wrappingWidth="297.7902374267578">
+                            <font>
+                                <Font size="36.0" />
+                            </font>
+                        </Text>
+                        <Text fx:id="uid11111" layoutX="75.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="listUser" text="Userid  : #" />
+                        <Text fx:id="goal11111" layoutX="90.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lastmessage" text="Working On :" wrappingWidth="307.3902130126953">
+                            <font>
+                                <Font size="36.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </Group>
+            </children>
+        </Group>
+        <Group fx:id="extGroup2" layoutX="31.0" layoutY="217.0">
+            <children>
+                <Button fx:id="home2" layoutY="8.0" mnemonicParsing="false" onAction="#visit" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
+                    <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="USER" size="40" strokeWidth="0.5" wrappingWidth="29.942844480276108" />
+                    </graphic>
+                </Button>
+                <Button fx:id="chat2" layoutX="63.0" mnemonicParsing="false" onAction="#touchChat" prefHeight="75.0" prefWidth="267.0" style="-fx-background-color: transparent;">
+                    <graphic>
+                        <Group fx:id="group2">
+                            <children>
+                                <Text layoutX="72.0" layoutY="48.576171875" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lastmessage" text="..." wrappingWidth="278.45692443847656">
+                                    <font>
+                                        <Font size="36.0" />
+                                    </font>
+                                </Text>
+                                <Text fx:id="userid" layoutX="65.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="listUser" text="Userid : #" />
+                            </children>
+                        </Group>
+                    </graphic>
+                </Button>
+            </children>
+        </Group>
+        <Group fx:id="extGroup3" layoutX="33.0" layoutY="307.0">
+            <children>
+                <Button fx:id="home3" layoutY="8.0" mnemonicParsing="false" onAction="#visit" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
+                    <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="USER" size="40" strokeWidth="0.5" wrappingWidth="29.942844480276108" />
+                    </graphic>
+                </Button>
+                <Button fx:id="chat3" layoutX="63.0" mnemonicParsing="false" onAction="#touchChat" prefHeight="75.0" prefWidth="267.0" style="-fx-background-color: transparent;">
+                    <graphic>
+                        <Group fx:id="group3">
+                            <children>
+                                <Text layoutX="72.0" layoutY="48.576171875" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lastmessage" text="..." wrappingWidth="278.45692443847656">
+                                    <font>
+                                        <Font size="36.0" />
+                                    </font>
+                                </Text>
+                                <Text fx:id="userid" layoutX="65.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="listUser" text="Userid : #" />
+                            </children>
+                        </Group>
+                    </graphic>
+                </Button>
+            </children>
+        </Group>
+    </children>
+</AnchorPane>

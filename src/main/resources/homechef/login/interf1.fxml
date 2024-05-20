@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.LoginControllerInterf1">
+    <children>
+        <Button fx:id="loginButton" layoutX="115.0" layoutY="448.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="70.0" prefWidth="164.0" style="-fx-font-size: 18px;" styleClass="Button" text="Login " textFill="#f2f2f2" />
+        <FontAwesomeIcon glyphName="SIGNAL" layoutX="290.0" layoutY="18.0" size="20" />
+        <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../photo/battery.png" />
+            </image>
+        </ImageView>
+        <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="21.0" size="20" />
+        <Text layoutX="35.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink_signup" text="9.31" />
+      <Text fill="#377dff" layoutX="96.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textTitle" text="Homechef" />
+      <Circle fill="#8290f1" layoutX="193.0" layoutY="193.0" radius="60.0" stroke="WHITE" strokeType="INSIDE" />
+      <TextField fx:id="labUser" layoutX="23.0" layoutY="273.0" prefHeight="50.0" prefWidth="370.0" promptText="User" styleClass="textField" />
+      <PasswordField fx:id="labPassword" layoutX="23.0" layoutY="337.0" prefHeight="50.0" prefWidth="370.0" promptText="Password" styleClass="textField">
+         <padding>
+            <Insets left="10.0" right="100.0" />
+         </padding></PasswordField>
+      <Button layoutX="270.0" layoutY="344.0" minHeight="32.0" minWidth="106.0" mnemonicParsing="false" onAction="#showPSWD" opacity="0.49" prefHeight="35.0" prefWidth="106.0" style="-fx-background-color: transparent;" styleClass="bottonesfondo">
+         <graphic>
+            <FontAwesomeIcon glyphName="EYE" size="30" text="" />
+         </graphic>
+      </Button>
+      <Hyperlink layoutX="257.0" layoutY="394.0" onAction="#switchToRecoverPswd" styleClass="hiperlink" text="Forgot password?" textFill="#377dff">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Hyperlink>
+      <Text layoutX="192.0" layoutY="536.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or" />
+      <Hyperlink layoutX="164.0" layoutY="548.0" onAction="#switchToSignup" styleClass="hiperlink" text="signup here" textFill="#377dff" />
+      <Hyperlink layoutX="114.0" layoutY="589.0" onAction="#switchToSignUpPsych" styleClass="hiperlink" text="Are you a chef ? signup here " textFill="#377dff">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Hyperlink>
+      <ScrollPane fx:id="scroll" layoutX="22.0" layoutY="387.0" minHeight="50.0" minWidth="193.0" prefHeight="50.0" prefWidth="235.0" style="-fx-opacity: 0.7; -fx-background-color: transparent;" vbarPolicy="NEVER">
+         <content>
+            <Label fx:id="show" minHeight="-Infinity" minWidth="190.0" opacity="0.0" prefHeight="32.0" style="-fx-background-color: #8290f1; -fx-border-radius: 20px; -fx-background-radius: 20px; -fx-text-fill: white;">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+         </content>
+      </ScrollPane>
+      <ImageView fitHeight="88.0" fitWidth="83.0" layoutX="152.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/icona-login.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

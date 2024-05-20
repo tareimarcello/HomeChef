@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="790.0" prefWidth="102.0" stylesheets="@css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.ButtonBarInterf2">
+   <children>
+      <Circle fill="#8290f1" layoutX="49.0" layoutY="62.0" radius="30.0" stroke="WHITE" strokeType="INSIDE" />
+      <Button fx:id="chat" layoutX="16.0" layoutY="135.0" mnemonicParsing="false" onAction="#goToChat" opacity="0.5" styleClass="Label" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIcon fill="#0059ff" glyphName="PAPER_PLANE" size="30" text="" />
+         </graphic>
+      </Button>
+      <Button fx:id="home" layoutX="14.0" layoutY="207.0" mnemonicParsing="false" onAction="#goToHome" opacity="0.5" prefHeight="44.0" prefWidth="53.0" styleClass="Label" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIcon fill="#0059ff" glyphName="HOME" size="40" text="" />
+         </graphic>
+      </Button>
+      <Button fx:id="form" layoutX="16.0" layoutY="273.0" mnemonicParsing="false" onAction="#goToForm" opacity="0.5" prefHeight="44.0" prefWidth="53.0" styleClass="Label" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIcon fill="#0059ff" glyphName="SLIDERS" size="40" text="" />
+         </graphic>
+      </Button>
+      <Button fx:id="settings" layoutX="17.0" layoutY="351.0" mnemonicParsing="false" onAction="#goToSettings" opacity="0.5" prefHeight="44.0" prefWidth="53.0" styleClass="Label" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIcon fill="#0059ff" glyphName="COG" size="40" text="" />
+         </graphic>
+      </Button>
+      <Button fx:id="search" layoutX="10.0" layoutY="435.0" mnemonicParsing="false" onAction="#goToSearch" opacity="0.5" prefHeight="44.0" prefWidth="53.0" styleClass="Label" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIcon fill="#377dff" glyphName="SEARCH" size="50" />
+         </graphic>
+      </Button>
+      <FontAwesomeIcon fill="#fffefe" glyphName="USERS" layoutX="28.0" layoutY="76.0" size="40" text="" wrappingWidth="28.38747485632939" />
+   </children>
+</AnchorPane>

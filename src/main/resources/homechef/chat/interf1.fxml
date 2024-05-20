@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.ChatControllerInterf1">
+    <children>
+        <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="22.0" size="20" />
+        <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../photo/battery.png" />
+            </image>
+        </ImageView>
+        <FontAwesomeIcon glyphName="SIGNAL" layoutX="290.0" layoutY="18.0" size="20" />
+        <Line endX="349.9999694824219" endY="13.999998092651367" layoutX="64.0" layoutY="-14.0" startX="-64.0000228881836" startY="13.999998092651367" styleClass="line" translateY="682.0" />
+        <Text layoutX="156.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubTitle" wrappingWidth="187.39027404785156">
+            <font>
+                <Font size="36.0" />
+            </font></Text>
+
+        <Button layoutX="267.0" layoutY="683.0" mnemonicParsing="false" onAction="#goBack" prefHeight="52.0" prefWidth="146.0" styleClass="button_bar">
+            <graphic>
+                <FontAwesomeIcon fill="#377dff" glyphName="PAPER_PLANE" size="50" />
+            </graphic></Button>
+        <Button layoutX="-83.0" layoutY="-10.0" mnemonicParsing="false" onAction="#goToPersonalForm" prefHeight="44.0" prefWidth="146.0" styleClass="button_bar" translateX="75.0" translateY="692.0">
+            <graphic>
+                <FontAwesomeIcon fill="#377dff" glyphName="SLIDERS" opacity="0.5" size="25" />
+            </graphic></Button>
+        <Button layoutX="133.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
+            <graphic>
+                <FontAwesomeIcon fill="#377dff" glyphName="HOME" opacity="0.5" size="20" />
+            </graphic></Button>
+        <Line endX="349.9999694824219" endY="13.999998092651367" layoutX="64.0" layoutY="-14.0" startX="-64.0000228881836" startY="13.999998092651367" styleClass="line" translateY="682.0" />
+        <Button layoutX="321.0" layoutY="38.0" mnemonicParsing="false" onAction="#touchedHome" prefHeight="58.0" prefWidth="58.0" styleClass="Back_Row">
+            <graphic>
+                <FontAwesomeIcon fill="#fff6f6" glyphName="USER" size="40" text="" wrappingWidth="35.19999999999993" />
+            </graphic>
+         <padding>
+            <Insets bottom="2.0" left="5.0" />
+         </padding></Button>
+        <Text fx:id="withName" layoutX="90.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textContent_signup" text="User #8536759" wrappingWidth="235.39027404785156" />
+        <Button layoutX="10.0" layoutY="32.0" mnemonicParsing="false" onAction="#goBack" prefHeight="30.0" prefWidth="35.0" styleClass="Back_Row">
+            <graphic>
+                <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="15" strokeWidth="0.5" />
+            </graphic>
+        </Button>
+        <Text layoutX="35.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink_signup" text="9.31" />
+        <ScrollPane fx:id="scrollpane" hbarPolicy="NEVER" layoutX="4.0" layoutY="105.0" prefHeight="457.0" prefWidth="410.0">
+            <content>
+                <AnchorPane fx:id="messaggi" minHeight="450.0" minWidth="380.0" />
+            </content>
+        </ScrollPane>
+        <TextArea fx:id="inputmsg" layoutX="1.0" layoutY="561.0" prefHeight="120.0" prefWidth="365.0" promptText="Message ">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextArea>
+        <Button layoutX="362.0" layoutY="562.0" minWidth="42.0" mnemonicParsing="false" onAction="#sendMsg" prefHeight="120.0" prefWidth="54.0" styleClass="button_pen">
+            <graphic>
+                <FontAwesomeIcon glyphName="PENCIL_SQUARE_ALT" opacity="0.5" size="30" text="" wrappingWidth="30.0" />
+            </graphic>
+        </Button>
+
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,217 @@
+.VBox{
+    -fx-background-color: #FFFFFF;
+}
+.Back_Row{
+    -fx-min-height:30 ;
+    -fx-min-width:30 ;
+    -fx-border-radius:50px;
+    -fx-background-radius:50px;
+    -fx-background-color: #377DFF;
+}
+.Button{
+    -fx-background-color: #377DFF;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 18px;
+    -fx-text-fill: white;
+}
+.button_bar{
+    -fx-min-height:52 ;
+    -fx-min-width:146 ;
+    -fx-background-color: transparent;
+}
+.comboBox{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:18px;
+    -fx-text-fill: red;
+}
+.eye{
+    -fx-scale-x:329px;
+    -fx-scale-y:324px;
+}
+.form{
+     -fx-background-color:rgba(55, 125, 255,0.2);
+     -fx-border-radius: 18px;
+     -fx-border-width: 5px;
+     -fx-background-radius: 18px;
+     -fx-border-color: rgba(55, 125, 255,0.7);
+     -fx-font-family: "Work Sans";
+     -fx-font-style:normal;
+     -fx-font-weight: 200;
+     -fx-font-size:25px;
+     -fx-fill: black;
+     -fx-arc-height: 10px;
+ }
+
+.hiperlink{
+    -fx-font-size:13 px;
+}
+.hiperlink_signup{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:18px;
+}
+.bottonesfondo {
+    -fx-background-color:#F4F4F4;
+    -fx-opacity: 0.5;
+}
+.line{
+    -fx-stroke:#377DFF;
+    -fx-opacity: 0.40;
+}
+.lastmessage{
+    -fx-font-family:"Work Sans";
+    -fx-font-weight:100;
+    -fx-font-size:18px;
+    -fx-fill:black;
+}
+.Label{
+    -fx-background-color: #F2F2F2;
+    -fx-border-radius: 18px;
+    -fx-border-width: 5px;
+    -fx-background-radius: 18px;
+    -fx-border-color: #F2F2F2;
+    -fx-font-family: "Work Sans";
+    -fx-font-style:normal;
+    -fx-font-weight: 200;
+    -fx-font-size:18px;
+}
+.listUser{
+    -fx-background-color:#F4F4F4;
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:20px;
+}
+.param{
+    -fx-font-family:"Work Sans";
+    -fx-font-style:normal;
+    -fx-font-weight:100;
+    -fx-font-size:18px;
+    -fx-fill:black;
+}
+.progress-bar{
+    -fx-accent:#7836ea;
+}
+.question{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight:100;
+    -fx-font-size:18px;
+    -fx-fill:#377DFF;
+}
+
+.textField{
+    -fx-background-color: white;
+    -fx-border-radius: 18px;
+    -fx-border-width: 5px;
+    -fx-background-radius: 18px;
+    -fx-border-color: rgba(55, 125, 255,0.7);
+    -fx-font-family: "Work Sans";
+    -fx-font-style:normal;
+    -fx-font-weight: 200;
+    -fx-font-size:18px;
+    -fx-fill: black;
+    -fx-opacity:0.7;
+}
+.textTitle{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:40px;
+    -fx-color-label-visible:#0e3a65;
+}
+.textLab{
+    -fx-font-family: "Work Sans";
+    -fx-font-style:normal;
+    -fx-font-weight: 200;
+    -fx-font-size:16px;
+    -fx-text-fill: #b108d4;
+}
+.textSubTitle{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:22px;
+}
+.textHomePage{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:16px;
+    -fx-text-fill:#6a94b7;
+}
+.textSubSubTitle{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:18px;
+}
+.textSubFormTitle{
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:18px;
+}
+.textContent{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:12px;
+}
+.textContent_signup{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:18px;
+    -fx-fill:#377DFF;
+    -fx-opacity:0.8;
+}
+.textContent_signupInterf2{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:30px;
+    -fx-fill:#377DFF;
+    -fx-opacity:0.8;
+}
+.recived_message{
+    -fx-background-color: rgba(207, 207, 207, 0.5);
+    -fx-border-radius: 18px;
+    -fx-border-width: 5px;
+    -fx-background-radius: 18px;
+    -fx-font-style:normal;
+    -fx-font-size:18px;
+    -fx-fill:black;
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-weight: bold;
+}
+.search{
+    -fx-background-color: white;
+    -fx-border-radius: 18px;
+    -fx-border-width: 3px;
+    -fx-background-radius: 18px;
+    -fx-border-color: rgba(55, 125, 255,0.7);
+}
+.send_message{
+    -fx-background-color: rgba(55, 125, 255, 0.69);
+    -fx-border-radius: 18px;
+    -fx-border-width: 5px;
+    -fx-background-radius: 18px;
+    -fx-font-style:normal;
+    -fx-font-size:18px;
+    -fx-text-fill:white;
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-weight: bold;
+
+}
+.square{
+    -fx-font-family: "Work Sans";
+    -fx-border-color: rgba(177, 177, 187,1);//0.44
+    -fx-font-size:16px;
+    -fx-text-fill:rgb(109,109,109);
+    -fx-font-style:normal;
+    -fx-font-weight: 200;
+    -fx-font-size:18px;
+}

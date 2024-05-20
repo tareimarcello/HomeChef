@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.SearchControllerInterf2">
+    <children>
+      <AnchorPane fx:id="buttonBar" layoutX="-3.0" layoutY="2.0" prefHeight="790.0" prefWidth="102.0" />
+      <AnchorPane fx:id="resultVisit" layoutX="668.0" layoutY="-2.0" prefHeight="780.0" prefWidth="765.0" stylesheets="@../css.css">
+         <children>
+            <FontAwesomeIcon glyphName="HAND_ALT_LEFT" layoutX="294.0" layoutY="489.0" opacity="0.49" size="200" />
+            <Label layoutX="158.0" layoutY="197.0" opacity="0.49" style="-fx-font-size: 60;" styleClass="textSubTitle" text="Start To Search" />
+         </children></AnchorPane>
+        <Line endX="350.0" endY="-154.0" layoutX="317.0" layoutY="-532.0" startX="350.00006103515625" startY="668.3671264648438" styleClass="line" translateY="682.0" />
+        <Text fill="#243443" layoutX="-56.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubTitle" translateX="170.0" translateY="-10.0" />
+        <Text layoutX="-10.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" translateX="80.0" translateY="160.0" />
+        <Text fill="#6a94b7" layoutX="83.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #6a94b7;" styleClass="textHomePage" />
+        <Button fx:id="buttonSearch" layoutX="264.0" layoutY="646.0" mnemonicParsing="false" onAction="#search" opacity="0.0" prefHeight="70.0" prefWidth="186.0" style="-fx-font-size: 18px;" styleClass="Button">
+            <graphic>
+                <FontAwesomeIcon fill="WHITE" glyphName="SEARCH" size="40" text="" wrappingWidth="40.0">
+                    <effect>
+                        <Lighting>
+                            <bumpInput>
+                                <Shadow />
+                            </bumpInput>
+                            <light>
+                                <Light.Distant />
+                            </light>
+                        </Lighting>
+                    </effect>
+                </FontAwesomeIcon>
+            </graphic>
+        </Button>
+        <TextField fx:id="inputTraits" layoutX="140.0" layoutY="348.0" prefHeight="50.0" prefWidth="432.0" styleClass="textField" />
+        <Text fill="#3c59cd" layoutX="258.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Slider fx:id="empSL" blockIncrement="1.0" layoutX="146.0" layoutY="227.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="42.0" prefWidth="426.0" showTickLabels="true" value="5.0" />
+        <Text layoutX="146.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert your minimum valutation to search">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="145.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font>
+                <Font name="AppleGothic Regular" size="36.0" />
+            </font>
+        </Text>
+        <Text layoutX="140.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 25;" styleClass="textContent_signup" text="What do you want to eat?" wrappingWidth="350.39027404785156" />
+        <ProgressBar fx:id="progressBar" layoutX="-295.0" layoutY="388.0" prefHeight="18.0" prefWidth="780.0" progress="0.0" rotate="90.0" style="-fx-accent: #377DFF; -fx-opacity: 0.7;" />
+        <Slider fx:id="carefulness" blockIncrement="1.0" layoutX="287.0" layoutY="608.0" majorTickUnit="1.0" max="2.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="14.0" prefWidth="150.0" showTickLabels="true" value="1.0" />
+        <Text layoutX="327.0" layoutY="582.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100; -fx-font-size: 15;" styleClass="param" text="Accuracy:" />
+        <Text fill="#243443" layoutX="140.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40;" styleClass="textSubTitle" text="What are you looking for ? " />
+      <Label fx:id="lb1" layoutX="625.0" layoutY="151.0" prefHeight="19.0" prefWidth="0.0" />
+      <Label fx:id="lb2" layoutX="626.0" layoutY="218.0" prefHeight="18.0" prefWidth="1.0" />
+      <Label fx:id="lb3" layoutX="626.0" layoutY="280.0" />
+      <Label fx:id="lb4" layoutX="417.0" layoutY="571.0" prefHeight="18.0" prefWidth="10.0" />
+
+    </children>
+</AnchorPane>

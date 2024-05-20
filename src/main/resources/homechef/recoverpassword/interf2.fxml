@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.RecoverPswdControllerInterf1">
+    <children>
+        <ImageView fitHeight="238.0" fitWidth="184.0" layoutX="633.0" layoutY="227.0" opacity="0.71" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/recover-chef.jpg" />
+            </image>
+            <effect>
+                <InnerShadow />
+            </effect>
+        </ImageView>
+        <Text fill="#377dff" layoutX="552.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textContent" text="Enter  email to recover your credentials." textAlignment="CENTER" wrappingWidth="381.36634063720703">
+         <font>
+            <Font size="29.0" />
+         </font></Text>
+        <Label layoutX="500.0" layoutY="569.0" prefHeight="38.0" prefWidth="206.0" style="-fx-font-size: 22;" styleClass="Label" stylesheets="@../css.css" text="Email: " />
+        <TextField fx:id="email" layoutX="575.0" layoutY="565.0" maxWidth="-Infinity" prefHeight="50.0" prefWidth="384.0" promptText="mariorossi@gmail.com" styleClass="textField" />
+        <Button layoutX="779.0" layoutY="649.0" mnemonicParsing="false" onAction="#sendMail" prefHeight="50.0" prefWidth="124.0" style="-fx-font-size: 20;" styleClass="Button" text="Submit " textFill="WHITE" />
+        <Text fill="#377dff" layoutX="519.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 80;" styleClass="textSubSubTitle" text="HomeChef" AnchorPane.topAnchor="48.0">
+            <font>
+                <Font name="American Typewriter" size="72.0" />
+            </font>
+        </Text>
+        <Text layoutX="568.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40;" styleClass="textSubTitle" text="Recover password">
+            <font>
+                <Font size="48.0" />
+            </font>
+        </Text>
+        <Button layoutX="597.0" layoutY="649.0" mnemonicParsing="false" onAction="#backToLogin" prefHeight="50.0" prefWidth="124.0" style="-fx-font-size: 20;" styleClass="Button" text="Back" textFill="WHITE" />
+      <Label fx:id="show" layoutX="110.0" layoutY="543.0" minHeight="-Infinity" minWidth="190.0" prefHeight="114.0" prefWidth="456.0" style="-fx-background-color: transparent; -fx-font-size: 25; -fx-text-fill: #7836ea; " text="your email is &#10;uncorrect or it's not &#10;present in our database " textAlignment="RIGHT">
+         <padding>
+            <Insets left="100.0" />
+         </padding>
+      </Label>
+    </children>
+</AnchorPane>

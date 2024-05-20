@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.SignupPsychologistControllerInterf1">
+   <children>
+      <FontAwesomeIcon glyphName="SIGNAL" layoutX="290.0" layoutY="18.0" size="20" />
+      <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="21.0" size="20" />
+      <Text layoutX="35.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink_signup" text="9.31" />
+      <Button layoutX="25.0" layoutY="39.0" mnemonicParsing="false" onAction="#goToLogin" prefHeight="30.0" prefWidth="35.0" styleClass="Back_Row">
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="20" />
+         </graphic>
+      </Button>
+      <Text fill="#243443" layoutX="166.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubTitle" text="Signup" />
+      <TextField fx:id="email" layoutX="24.0" layoutY="164.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="373.0" promptText="mariorossi@gmail.com" styleClass="textField" />
+      <Text fill="#243443" layoutX="127.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signup" text="insert your email: " />
+      <Text fill="#243443" layoutX="136.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signup" text="Chose password:" />
+      <PasswordField fx:id="confirmpswd" layoutX="214.0" layoutY="268.0" maxWidth="-Infinity" prefHeight="50.0" prefWidth="182.0" promptText="confirm password" styleClass="textField" />
+      <PasswordField fx:id="pswd" layoutX="20.0" layoutY="266.0" maxWidth="-Infinity" prefHeight="50.0" prefWidth="182.0" promptText="password" styleClass="textField" />
+      <Text fill="#d10000" layoutX="115.0" layoutY="385.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: red; -fx-opacity: 0.5;" styleClass="textContent_signup" text="insert your best dish" />
+      <TextField layoutX="22.0" layoutY="392.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.33" prefHeight="42.0" prefWidth="370.0" style="-fx-opacity: 0.5; -fx-fill: red; -fx-border-color: red;" styleClass="textField" />
+      <Button layoutX="143.0" layoutY="631.0" mnemonicParsing="false" onAction="#save" prefHeight="50.0" prefWidth="130.0" style="-fx-font-size: 18;" styleClass="Button" text="Save account" />
+      <Text layoutX="53.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-opacity: 0.5; -fx-fill: red; -fx-border-color: red;" styleClass="textContent_signup" text="insert restaurant where you work at " />
+      <TextField layoutX="22.0" layoutY="472.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="42.0" prefWidth="370.0" style="-fx-opacity: 0.5; -fx-fill: red; -fx-border-color: red;" styleClass="textField" />
+      <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photo/battery.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="pswdCheck" layoutX="99.0" layoutY="323.0" opacity="0.0" style="-fx-text-fill: #7836ea;" text="the two password must match each other  " />
+      <Label fx:id="emailCheck" layoutX="61.0" layoutY="220.0" opacity="0.0" style="-fx-text-fill: #7836ea;" text="email must not be already in the sistem and must be valid " />
+      <Text fill="#377dff" layoutX="98.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textTitle" text="HomeChef" />
+   </children>
+</AnchorPane>

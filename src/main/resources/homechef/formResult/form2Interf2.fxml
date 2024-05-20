@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.Form2ResultInterf1">
+    <children>
+        <AnchorPane layoutX="4.0" layoutY="4.0" maxHeight="1200.0" maxWidth="1300.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css">
+            <children>
+                <ScrollPane hbarPolicy="NEVER" layoutX="314.0" layoutY="116.0" prefHeight="565.0" prefWidth="1124.0" styleClass="startChat" vbarPolicy="NEVER">
+               <content>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="1108.0" stylesheets="@../css.css">
+                     <children>
+                        <Text fill="#3884ff" layoutX="32.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I feel connected with my loved ones' joy and sorrow." textAlignment="CENTER" wrappingWidth="1034.8586730957031">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="317.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="724.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#3884ff" layoutX="306.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Today i'm feeling amused, fun-loving, or silly.">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="317.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="724.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#3884ff" layoutX="338.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If I am feeling upset or unhappy I usually &#10;try to think of something funny about &#10;the situation to make myself feel better." textAlignment="CENTER">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="317.0" layoutY="526.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="724.0" layoutY="526.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#3884ff" layoutX="289.0" layoutY="630.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I feel uneasy talking about my mood with others." textAlignment="CENTER">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="724.0" layoutY="689.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="317.0" layoutY="690.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#3884ff" layoutX="282.0" layoutY="818.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If I feel like I'm having a bad day I try to go &#10;out for a walk to enjoy the sunset and feel better." textAlignment="CENTER">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="733.0" layoutY="890.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Very often">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="326.0" layoutY="893.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not at all">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#3884ff" layoutX="188.0" layoutY="999.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If I am having problems or feeling unhappy,&#10;I often cover it up by joking around, so that even &#10;my closest friends don’t know how I really feel." textAlignment="CENTER" wrappingWidth="757.4320983886719">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="737.0" layoutY="1125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Very often">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="330.0" layoutY="1128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not at all">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <ImageView fx:id="ans1" fitHeight="66.0" fitWidth="205.0" layoutX="447.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@photo/val5.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="ans2" fitHeight="73.0" fitWidth="218.0" layoutX="445.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@photo/val4.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="ans6" fitHeight="122.0" fitWidth="218.0" layoutX="467.0" layoutY="1099.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@photo/val3.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="ans5" fitHeight="81.0" fitWidth="221.0" layoutX="459.0" layoutY="863.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@photo/val4.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="ans4" fitHeight="108.0" fitWidth="249.0" layoutX="427.0" layoutY="669.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@photo/val2.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="ans3" fitHeight="73.0" fitWidth="227.0" layoutX="454.0" layoutY="504.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@photo/val4.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </content>
+                </ScrollPane>
+                <Text layoutX="666.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your answer">
+                    <font>
+                        <Font name="System Font" size="64.0" />
+                    </font>
+                </Text>
+                <Text fill="#1f50e4" layoutX="84.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Form 1" wrappingWidth="178.23995971679688">
+                    <font>
+                        <Font size="48.0" />
+                    </font>
+                </Text>
+                <ImageView fx:id="optimismSlider" fitHeight="50.0" fitWidth="155.0" layoutX="79.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@photo/val4.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="humorSlider" fitHeight="50.0" fitWidth="155.0" layoutX="71.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@photo/val3.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="empathySlider" fitHeight="50.0" fitWidth="155.0" layoutX="73.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@photo/val2.png" />
+                    </image>
+                </ImageView>
+                <Text layoutX="81.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Empathy:">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Text>
+                <Text layoutX="91.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Humor:">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Text>
+                <Text layoutX="83.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Optimism">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Text>
+                <Text layoutX="62.0" layoutY="572.0" strokeType="OUTSIDE" strokeWidth="0.0" text="on date : 22/11/2021">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

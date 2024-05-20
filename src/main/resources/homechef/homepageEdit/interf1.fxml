@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.HomepageEditControllerInterf1">
+    <children>
+        <Button layoutX="267.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToISC" prefHeight="52.0" prefWidth="146.0" styleClass="button_bar">
+            <graphic>
+                <FontAwesomeIcon fill="#377dff" glyphName="PAPER_PLANE" opacity="0.5" size="20" />
+            </graphic>
+        </Button>
+        <Button layoutX="-83.0" layoutY="-10.0" mnemonicParsing="false" onAction="#goToPersonalForm" prefHeight="44.0" prefWidth="146.0" styleClass="button_bar" translateX="75.0" translateY="692.0">
+            <graphic>
+                <FontAwesomeIcon fill="#377dff" glyphName="SLIDERS" opacity="0.5" size="25" />
+            </graphic>
+        </Button>
+        <Button layoutX="133.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
+            <graphic>
+                <FontAwesomeIcon fill="#377dff" glyphName="HOME" size="60" />
+            </graphic>
+        </Button>
+        <Line endX="349.9999694824219" endY="13.999998092651367" layoutX="64.0" layoutY="-14.0" startX="-64.0000228881836" startY="13.999998092651367" styleClass="line" translateY="682.0" />
+        <Text layoutX="156.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubTitle" text="Profile " wrappingWidth="187.39027404785156">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Text>
+        <Text fx:id="userName" layoutX="129.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signup" text="User #7853789" wrappingWidth="187.39027404785156" />
+        <Text layoutY="-29.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" styleClass="param" text="Empathy:" translateX="80.0" translateY="150.0" />
+        <Text layoutY="5.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Humor:" translateX="80.0" translateY="150.0" />
+        <Text layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Optimism:" translateX="80.0" translateY="160.0" />
+        <Text layoutX="30.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubSubTitle" text="Personality Traits :" wrappingWidth="187.39027404785156" />
+        <Text fill="#6a94b7" layoutX="83.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #6a94b7;" styleClass="textHomePage">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Text layoutX="256.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubSubTitle" text="Work On :" wrappingWidth="92.39027404785156" />
+        <ImageView fitHeight="181.0" fitWidth="146.0" layoutX="14.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+
+        </ImageView>
+        <Label layoutX="30.0" layoutY="263.0" styleClass="textHomePage" />
+        <Button fx:id="save" layoutX="228.0" layoutY="517.0" mnemonicParsing="false" onAction="#saveChanges" prefHeight="70.0" prefWidth="164.0" style="-fx-font-size: 18px;" styleClass="Button" text="Save Profile" textFill="#f2f2f2">
+            <padding>
+                <Insets right="30.0" />
+            </padding></Button>
+        <FontAwesomeIcon glyphName="SIGNAL" layoutX="290.0" layoutY="18.0" size="20" />
+        <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+
+        </ImageView>
+        <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="22.0" size="20" />
+        <Text layoutX="35.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink_signup" text="9.31" />
+        <ImageView fitHeight="181.0" fitWidth="146.0" layoutX="18.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@photo/clessidra.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../photo/battery.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="35.0" layoutY="49.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="30.0" prefWidth="35.0" styleClass="Back_Row">
+            <graphic>
+                <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="20" />
+            </graphic>
+        </Button>
+        <TextField fx:id="goal" layoutX="185.0" layoutY="356.0" prefHeight="127.0" prefWidth="220.0" promptText="i want to be a better person" styleClass="textField">
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor></TextField>
+        <TextField fx:id="tag" layoutX="184.0" layoutY="354.0" prefHeight="31.0" prefWidth="220.0" promptText="#character" styleClass="textHomePage" />
+        <TextField fx:id="date" layoutX="205.0" layoutY="458.0" prefHeight="26.0" prefWidth="201.0" promptText="21/10/2021" />
+        <TextField fx:id="personalDes" layoutX="30.0" layoutY="280.0" prefHeight="25.0" prefWidth="329.0" promptText="#Calm#honest#creative" />
+        <FontAwesomeIcon fill="WHITE" glyphName="SAVE" layoutX="350.0" layoutY="563.0" size="30" text="" />
+        <ImageView fx:id="positivitySlider" fitHeight="50.0" fitWidth="155.0" layoutX="213.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="humorSlider" fitHeight="50.0" fitWidth="155.0" layoutX="211.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="empathySlider" fitHeight="50.0" fitWidth="155.0" layoutX="209.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" />
+
+        <Hyperlink layoutX="226.0" layoutY="228.0" onAction="#takeForm" styleClass="hiperlink_signup" text="Take a new Form" />
+    </children>
+</AnchorPane>

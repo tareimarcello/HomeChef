@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="homepageEdit" prefHeight="790.0" prefWidth="482.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.HomepageEditControllerInterf2">
+   <children>
+      <Button layoutX="401.0" layoutY="12.0" mnemonicParsing="false" styleClass="button_bar">
+         <graphic>
+            <Group>
+               <children>
+                  <FontAwesomeIcon fill="#f7f3f3" glyphName="USER" layoutX="-17.0" layoutY="14.0" size="45" />
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+      <Text fill="#0059ff" layoutX="63.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="param" text="Positivity">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="positivitySlider" fitHeight="81.0" fitWidth="211.0" layoutX="249.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../homepage/photo/val2.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="155.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40;" styleClass="textSubTitle" text="Edit Profile">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Text fill="#0059ff" layoutX="65.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="param" text="Empathy">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#0059ff" layoutX="66.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="param" text="Humor">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="empathySlider" fitHeight="81.0" fitWidth="211.0" layoutX="248.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/val2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="humorSlider" fitHeight="70.0" fitWidth="214.0" layoutX="249.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/val3.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="55.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubTitle" text="Personality Traits:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Hyperlink layoutX="300.0" layoutY="319.0" onAction="#takeForm" styleClass="hiperlink_signup" text="Take a new Form" />
+      <TextField fx:id="personalDes" layoutX="55.0" layoutY="404.0" prefHeight="46.0" prefWidth="350.0" promptText="#Calm#honest#creative" />
+      <Text layoutX="152.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubSubTitle" text="Work On :" wrappingWidth="211.39027404785156" />
+      <TextField fx:id="goal" layoutX="155.0" layoutY="511.0" onAction="#saveChanges" prefHeight="127.0" prefWidth="220.0" promptText="i want to be a better person" styleClass="textField">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="date" layoutX="170.0" layoutY="623.0" prefHeight="26.0" prefWidth="201.0" promptText="21/10/2021" />
+      <TextField fx:id="tag" layoutX="155.0" layoutY="502.0" onAction="#saveChanges" prefHeight="31.0" prefWidth="220.0" promptText="#character" styleClass="textHomePage" />
+      <Button fx:id="save" layoutX="186.0" layoutY="677.0" mnemonicParsing="false" onAction="#saveChanges" prefHeight="70.0" prefWidth="164.0" style="-fx-font-size: 18px;" styleClass="Button" text="Save Profile" textFill="#f2f2f2">
+         <padding>
+            <Insets right="30.0" />
+         </padding>
+      </Button>
+      <Button layoutX="45.0" layoutY="59.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="30.0" prefWidth="35.0" styleClass="Back_Row">
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="20" />
+         </graphic>
+      </Button>
+      <Text fx:id="userName" layoutX="139.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textContent_signup" text="User #7853789" wrappingWidth="247.39027404785156" />
+   </children>
+</AnchorPane>

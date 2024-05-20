@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.SignupControllerInterf1">
+    <children>
+        <TextField fx:id="email" layoutX="376.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="451.0" promptText="mariorossi@gmail.com" styleClass="textField" />
+        <PasswordField fx:id="confirmpswd" layoutX="601.0" layoutY="307.0" maxWidth="-Infinity" prefHeight="50.0" prefWidth="234.0" promptText="confirm password" styleClass="textField" />
+        <PasswordField fx:id="pswd" layoutX="376.0" layoutY="307.0" maxWidth="-Infinity" prefHeight="50.0" prefWidth="218.0" promptText="password" styleClass="textField" />
+        <Button layoutX="737.0" layoutY="676.0" mnemonicParsing="false" onAction="#save" prefHeight="50.0" prefWidth="130.0" style="-fx-font-size: 18;" styleClass="Button" text="Save account" />
+        <Text fill="#377dff" layoutX="45.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signupInterf2" text="Insert your email:">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text fill="#377dff" layoutX="45.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signupInterf2" text="Choose your password:">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text fill="#377dff" layoutX="570.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 100;" styleClass="textTitle" text="HomeChef">
+            <font>
+                <Font size="48.0" />
+            </font>
+        </Text>
+        <Button layoutX="566.0" layoutY="676.0" mnemonicParsing="false" onAction="#goToLogin" prefHeight="50.0" prefWidth="130.0" style="-fx-font-size: 18;" styleClass="Button" text="Go back" />
+      <Label fx:id="emailCheck" layoutX="123.0" layoutY="266.0" style="-fx-text-fill: #7836ea; -fx-font-size: 20;" text="email could not be already in the sistem and must be valid " />
+      <Label fx:id="pswdCheck" layoutX="176.0" layoutY="366.0" style="-fx-text-fill: #7836ea; -fx-font-size: 20;" text="the two password must match each other  " />
+      <Label fx:id="lab3" layoutX="1330.0" layoutY="378.0" opacity="0.0" prefHeight="32.0" prefWidth="28.0" style="-fx-background-color: transparent; -fx-font-size: 20; -fx-text-fill: #7836ea;" text="-1" />
+      <Label fx:id="lab2" layoutX="1330.0" layoutY="323.0" opacity="0.0" prefHeight="32.0" prefWidth="28.0" style="-fx-background-color: transparent; -fx-font-size: 20; -fx-text-fill: #7836ea;" text="-1" />
+      <Label fx:id="lab1" layoutX="1330.0" layoutY="261.0" opacity="0.0" prefHeight="32.0" prefWidth="28.0" style="-fx-background-color: transparent; -fx-font-size: 20; -fx-text-fill: #7836ea;" text="-1" />
+      <ImageView fitHeight="379.0" fitWidth="810.0" layoutX="965.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/cuoco.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<connection>
+    <parameters id="1">
+        <username>uf56pst70onxcz68</username>
+        <password>N5bkvOZY2AhFpYZYu3w7</password>
+        <url>jdbc:mysql://uf56pst70onxcz68:N5bkvOZY2AhFpYZYu3w7@b16kdsy1yce6nyrrldqg-mysql.services.clever-cloud.com:3306/b16kdsy1yce6nyrrldqg</url>
+        <driverName>com.mysql.cj.jdbc.Driver</driverName>
+    </parameters>
+</connection>

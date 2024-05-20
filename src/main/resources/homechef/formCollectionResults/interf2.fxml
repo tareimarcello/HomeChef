@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.FormCollectionResultsInterf2">
+    <children>
+        <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="931.0" pickOnBounds="true" preserveRatio="true" />
+        <Button layoutX="184.0" layoutY="238.0" mnemonicParsing="false" onAction="#urResult" prefHeight="52.0" prefWidth="353.0" text="FORM 1">
+            <styleClass>
+                <String fx:value="Button" />
+                <String fx:value="textSubFormTitle" />
+            </styleClass>
+        </Button>
+        <Button layoutX="184.0" layoutY="316.0" mnemonicParsing="false" onAction="#urResult" opacity="0.75" prefHeight="52.0" prefWidth="353.0" text="FORM 2">
+            <styleClass>
+                <String fx:value="Button" />
+                <String fx:value="textSubFormTitle" />
+            </styleClass>
+        </Button>
+        <Button layoutX="184.0" layoutY="393.0" mnemonicParsing="false" onAction="#urResult" opacity="0.5" prefHeight="52.0" prefWidth="353.0" text="FORM 3">
+            <styleClass>
+                <String fx:value="Button" />
+                <String fx:value="textSubFormTitle" />
+            </styleClass>
+        </Button>
+        <ImageView fitHeight="229.0" fitWidth="382.0" layoutX="146.0" layoutY="561.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../formCollectionResults/photo/img_1.png" />
+            </image>
+        </ImageView>
+        <Hyperlink layoutX="289.0" layoutY="477.0" onAction="#takeForm" style="-fx-font-size: 25;" styleClass="hiperlink_signup" text="Take a form ">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Hyperlink>
+        <Button layoutX="20.0" layoutY="442.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="27.0" styleClass="Label" textFill="WHITE" />
+        <Line endX="350.0" endY="-154.0" layoutX="-248.0" layoutY="152.0" startX="350.0" startY="642.4666748046875" styleClass="line" />
+        <Line endX="350.0" endY="-154.0" layoutX="279.0" layoutY="153.0" startX="350.0" startY="642.4666748046875" styleClass="line" />
+      <AnchorPane fx:id="anchorSelected" layoutX="633.0" layoutY="-1.0" prefHeight="790.0" prefWidth="806.0" style="-fx-background-color: transparent;" />
+      <Text fx:id="idUser" layoutX="246.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textContent_signup" text="User #7853789" wrappingWidth="247.39027404785156" />
+      <Text layoutX="299.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40;" styleClass="textSubTitle" text="Form">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <AnchorPane fx:id="buttonBar" layoutX="-2.0" prefHeight="790.0" prefWidth="102.0" />
+    </children>
+</AnchorPane>

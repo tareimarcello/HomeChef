@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.SettingsControllerInterf1">
+    <children>
+        <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="21.0" size="20" />
+        <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+
+        </ImageView>
+        <FontAwesomeIcon glyphName="SIGNAL" layoutX="290.0" layoutY="18.0" size="20" />
+        <Text layoutX="124.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40;" styleClass="textSubTitle" text="Settings " wrappingWidth="187.39027404785156">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Text>
+        <Button layoutX="22.0" layoutY="43.0" mnemonicParsing="false" onAction="#goBack" prefHeight="30.0" prefWidth="35.0" styleClass="Back_Row">
+            <graphic>
+                <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" onDragDetected="#goBack" size="20" />
+            </graphic>
+        </Button>
+        <FontAwesomeIcon glyphName="FLAG" layoutX="29.0" layoutY="602.0" size="20" text="" />
+        <FontAwesomeIcon glyphName="STAR" layoutX="29.0" layoutY="671.0" opacity="0.37" size="20" />
+        <Text layoutX="60.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink" />
+        <Text layoutX="60.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="372.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+
+        </ImageView>
+        <ComboBox fx:id="comb" layoutX="70.0" layoutY="578.0" prefHeight="41.0" prefWidth="230.0" promptText="Change Language">
+            <styleClass>
+                <String fx:value="search" />
+                <String fx:value="hiperlink_signup" />
+            </styleClass></ComboBox>
+        <Line endX="301.5000305175781" endY="14.0" layoutX="83.0" layoutY="134.0" startX="-10.0" startY="13.999998092651367" styleClass="line" />
+        <Text layoutX="59.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Hyperlink layoutX="65.0" layoutY="298.0" onAction="#setPswd" styleClass="hiperlink_signup" text="Edit Password" />
+        <Hyperlink layoutX="58.0" layoutY="649.0" opacity="0.37" style="-fx-text-fill: red;" styleClass="hiperlink_signup" text="Leave a review" />
+        <Hyperlink layoutX="67.0" layoutY="116.0" onAction="#signOut" styleClass="hiperlink_signup" text="Sign Out" />
+        <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../photo/battery.png" />
+            </image>
+        </ImageView>
+        <Hyperlink layoutX="67.0" layoutY="188.0" onAction="#setMail" styleClass="hiperlink_signup" text="Edit Mail" />
+        <TextField fx:id="email" layoutX="23.0" layoutY="222.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="373.0" promptText="mariorossi@gmail.com" styleClass="textField" />
+        <PasswordField fx:id="confirmpswd" layoutX="216.0" layoutY="331.0" maxWidth="-Infinity" prefHeight="50.0" prefWidth="182.0" promptText="confirm password" styleClass="textField" />
+        <PasswordField fx:id="pswd" layoutX="22.0" layoutY="333.0" maxWidth="-Infinity" prefHeight="50.0" prefWidth="182.0" promptText="password" styleClass="textField" />
+        <Hyperlink layoutX="65.0" layoutY="410.0" onAction="#setFeed" styleClass="hiperlink_signup" text="Leave a feedback" />
+        <TextArea fx:id="feedback" layoutX="33.0" layoutY="448.0" prefHeight="83.0" prefWidth="358.0" />
+        <Button layoutX="24.0" layoutY="183.0" mnemonicParsing="false" onAction="#setMail" style="-fx-background-color: transparent;">
+            <graphic>
+                <FontAwesomeIcon glyphName="ENVELOPE_ALT" size="30" />
+            </graphic>
+        </Button>
+        <Button layoutX="28.0" layoutY="99.0" mnemonicParsing="false" onAction="#goEditProf" style="-fx-background-color: transparent;" />
+        <Button layoutX="26.0" layoutY="117.0" mnemonicParsing="false" onAction="#signOut" prefWidth="35.0" style="-fx-background-color: transparent;" textFill="WHITE">
+            <graphic>
+                <FontAwesomeIcon glyphName="SIGN_OUT" size="30" />
+            </graphic>
+        </Button>
+        <Button layoutX="29.0" layoutY="290.0" mnemonicParsing="false" onAction="#setPswd" style="-fx-background-color: transparent;">
+            <graphic>
+                <FontAwesomeIcon glyphName="LOCK" size="30" />
+            </graphic>
+        </Button>
+        <Button layoutX="23.0" layoutY="405.0" mnemonicParsing="false" onAction="#setFeed" style="-fx-background-color: transparent;">
+            <graphic>
+                <FontAwesomeIcon glyphName="EDIT" size="30" />
+            </graphic>
+        </Button>
+      <Text layoutX="35.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink_signup" text="9.31" />
+
+    </children>
+</AnchorPane>

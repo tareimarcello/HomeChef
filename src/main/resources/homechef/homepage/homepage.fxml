@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="homepageEdit" prefHeight="790.0" prefWidth="482.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.HomepageControllerInterf2">
+   <children>
+      <ImageView fx:id="empathySlider" fitHeight="81.0" fitWidth="211.0" layoutX="247.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/val2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="humorSlider" fitHeight="70.0" fitWidth="214.0" layoutX="248.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/val3.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="169.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40;" styleClass="textSubTitle" text="Profile">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Text fill="#0059ff" layoutX="64.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="param" text="Empathy:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#0059ff" layoutX="65.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="param" text="Humor:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#0059ff" layoutX="63.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="param" text="Optimism:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="positivitySlider" fitHeight="81.0" fitWidth="211.0" layoutX="249.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/val2.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="58.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personality Traits:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="236.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubSubTitle" text="Work On :" wrappingWidth="123.75" />
+      <ScrollPane layoutX="58.0" layoutY="409.0" minHeight="40.0" minWidth="360.0" prefHeight="40.0" prefWidth="378.0" style="-fx-background-color: transparent;" vbarPolicy="NEVER">
+         <content>
+            <Label fx:id="personalDescription" minHeight="27.0" minWidth="350.0" prefHeight="27.0" style="-fx-text-fill: #6a94b7;">
+               <styleClass>
+                  <String fx:value="textHomePage" />
+                  <String fx:value="square" />
+               </styleClass>
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+         </content>
+      </ScrollPane>
+      <ScrollPane hbarPolicy="NEVER" layoutX="206.0" layoutY="514.0" prefHeight="130.0" prefWidth="230.0" style="-fx-background-color: transparent;">
+         <content>
+            <Label fx:id="goal" minHeight="120.0" minWidth="210.0" styleClass="textField">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </Label>
+         </content>
+      </ScrollPane>
+      <Label fx:id="date" layoutX="283.0" layoutY="638.0" prefHeight="26.0" prefWidth="112.0" style="-fx-font-size: 12px; -fx-border-radius: 0px; -fx-background-color: white;" styleClass="square" textAlignment="CENTER" />
+      <ScrollPane hbarPolicy="NEVER" layoutX="209.0" layoutY="488.0" minHeight="-Infinity" minWidth="30.0" prefHeight="25.0" prefWidth="202.0" style="-fx-background-color: transparent;">
+         <content>
+            <Label fx:id="tag" alignment="CENTER" minHeight="18.0" minWidth="-Infinity" prefWidth="187.0" styleClass="textHomePage" textAlignment="CENTER" />
+         </content>
+      </ScrollPane>
+      <Button layoutX="178.0" layoutY="691.0" mnemonicParsing="false" onAction="#goToEditProfile" prefHeight="70.0" prefWidth="164.0" style="-fx-font-size: 18px;" styleClass="Button" text="Edit Profile" textFill="#f2f2f2" />
+      <Text fx:id="userName" layoutX="121.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textContent_signup" text="User #7853789" wrappingWidth="247.39027404785156" />
+      <ImageView fx:id="expired" fitHeight="213.0" fitWidth="173.0" layoutX="16.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/img3.png" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="6.0" layoutY="2.0" onAction="#setSize" styleClass="hiperlink" text="switch to mobile" textFill="#0095c8" />
+      <Button layoutX="10.0" layoutY="21.0" mnemonicParsing="false" onAction="#setSize" prefWidth="35.0" style="-fx-background-color: transparent;" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIcon fill="#0095c8" glyphName="MOBILE" size="30" />
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

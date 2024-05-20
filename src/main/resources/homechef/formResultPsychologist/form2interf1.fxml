@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.FormPsychologistResultInterf1">
+   <children>
+      <Text fx:id="idForm" layoutX="141.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textContent_signup" text="Form 2" wrappingWidth="132.99024963378906" />
+      <Button layoutX="41.0" layoutY="58.0" mnemonicParsing="false" onAction="#goBack" prefHeight="30.0" prefWidth="35.0" styleClass="Back_Row">
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="20" />
+         </graphic>
+      </Button>
+      <FontAwesomeIcon glyphName="SIGNAL" layoutX="290.0" layoutY="20.0" size="20" x="2.0" y="-2.0" />
+      <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" pickOnBounds="true" preserveRatio="true" x="2.0" y="-2.0">
+         <image>
+            <Image url="@../photo/battery.png" />
+         </image>
+      </ImageView>
+      <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="24.0" size="20" x="2.0" y="-2.0" />
+      <Text layoutX="35.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink_signup" text="9.31" x="2.0" y="-2.0" />
+      <ScrollPane fx:id="ScrollBar" layoutY="126.0" prefHeight="584.0" prefWidth="410.0">
+         <content>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1103.0" prefWidth="390.0" stylesheets="@../css.css">
+               <children>
+                  <Text fill="#377dff" layoutX="37.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubFormTitle" text="I feel connected with my loved ones' joy and sorrow." textAlignment="CENTER" wrappingWidth="329.6320343017578">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Slider fx:id="sl1" blockIncrement="1.0" layoutX="126.0" layoutY="96.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="139.0" showTickLabels="true" value="5.0" />
+                  <Text fill="#030303" layoutX="43.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Strongly &#10;Disagree" wrappingWidth="67.23201751708984" />
+                  <Text fill="#030303" layoutX="282.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Strongly &#10;Agree" textAlignment="RIGHT" wrappingWidth="67.23201751708984" />
+                  <Text fill="#3884ffcc" layoutX="37.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubFormTitle" text="Today i'm feeling amused, fun-loving, or silly." textAlignment="CENTER" wrappingWidth="329.6320343017578">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Slider fx:id="sl2" blockIncrement="1.0" layoutX="126.0" layoutY="277.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="139.0" showTickLabels="true" value="5.0" />
+                  <Text fill="#030303" layoutX="43.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Strongly &#10;Disagree" wrappingWidth="67.23201751708984" />
+                  <Text fill="#030303" layoutX="282.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Strongly &#10;Agree" textAlignment="RIGHT" wrappingWidth="67.23201751708984" />
+                  <Text fill="#3884ffcc" layoutX="37.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubFormTitle" text="If I am feeling upset or unhappy I usually try to think of something funny about the situation to make myself feel better." textAlignment="CENTER" wrappingWidth="329.6320343017578">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Slider fx:id="sl3" blockIncrement="1.0" layoutX="126.0" layoutY="461.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="139.0" showTickLabels="true" value="5.0" />
+                  <Text fill="#030303" layoutX="43.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Strongly &#10;Disagree" wrappingWidth="67.23201751708984" />
+                  <Text fill="#030303" layoutX="282.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Strongly &#10;Agree" textAlignment="RIGHT" wrappingWidth="67.23201751708984" />
+                  <Text fill="#387eff" layoutX="37.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubFormTitle" text="I feel uneasy talking about my mood with others." textAlignment="CENTER" wrappingWidth="329.6320343017578">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Slider fx:id="sl4" blockIncrement="1.0" layoutX="126.0" layoutY="642.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="139.0" showTickLabels="true" value="5.0" />
+                  <Text fill="#030303" layoutX="43.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Strongly &#10;Disagree" wrappingWidth="67.23201751708984" />
+                  <Text fill="#030303" layoutX="282.0" layoutY="644.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Strongly &#10;Agree" textAlignment="RIGHT" wrappingWidth="67.23201751708984" />
+                  <Text fill="#3881ffcc" layoutX="37.0" layoutY="751.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubFormTitle" text="If I feel like I'm having a bad day I try to go out for a walk to enjoy the sunset and feel better." textAlignment="CENTER" wrappingWidth="329.6320343017578">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Slider fx:id="sl5" blockIncrement="1.0" layoutX="126.0" layoutY="823.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="139.0" showTickLabels="true" value="5.0" />
+                  <Text fill="#030303" layoutX="43.0" layoutY="830.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Not at All" wrappingWidth="67.23201751708984" />
+                  <Text fill="#030303" layoutX="282.0" layoutY="831.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Very Often" textAlignment="RIGHT" wrappingWidth="67.23201751708984" />
+                  <Text fill="#387eff99" layoutX="37.0" layoutY="931.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubFormTitle" text="If I am having problems or feeling unhappy, I often cover it up by joking around, so that even my closest friends don’t know how I really feel." textAlignment="CENTER" wrappingWidth="329.6320343017578">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Slider fx:id="sl6" blockIncrement="1.0" layoutX="126.0" layoutY="1029.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="139.0" showTickLabels="true" value="5.0" />
+                  <Text fill="#030303" layoutX="43.0" layoutY="1038.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Not at All" wrappingWidth="67.23201751708984" />
+                  <Text fill="#030303" layoutX="282.0" layoutY="1036.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 14;" styleClass="param" text="Very Often" textAlignment="RIGHT" wrappingWidth="67.23201751708984" />
+                  <Label fx:id="lb1" layoutX="184.0" layoutY="74.0" styleClass="textLab" textFill="#b108d4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lb2" layoutX="184.0" layoutY="255.0" styleClass="textLab" textFill="#aa38e8" />
+                  <Label fx:id="lb3" layoutX="183.0" layoutY="440.0" styleClass="textLab" />
+                  <Label fx:id="lb4" layoutX="183.0" layoutY="619.0" styleClass="textLab" />
+                  <Label fx:id="lb5" layoutX="183.0" layoutY="800.0" styleClass="textLab" />
+                  <Label fx:id="lb6" layoutX="182.0" layoutY="1008.0" styleClass="textLab" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Text layoutX="103.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Completed by:" />
+      <Text fx:id="by" fill="#7836ea" layoutX="252.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #7836ea;" styleClass="param" text="3 Users" />
+   </children>
+</AnchorPane>
