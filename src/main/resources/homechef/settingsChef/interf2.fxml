@@ -6,7 +6,6 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -14,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="806.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.SettingsControllerInterf1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="806.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.SettingsControllerInterf1">
    <children>
       <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="418.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
       <FontAwesomeIcon glyphName="FLAG" layoutX="24.0" layoutY="657.0" size="50" text="" />
@@ -32,7 +31,6 @@
       <TextField fx:id="email" layoutX="330.0" layoutY="179.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="412.0" promptText="mariorossi@gmail.com" styleClass="textField" />
       <PasswordField fx:id="confirmpswd" layoutX="558.0" layoutY="263.0" maxWidth="-Infinity" prefHeight="50.0" prefWidth="182.0" promptText="confirm password" styleClass="textField" />
       <PasswordField fx:id="pswd" layoutX="336.0" layoutY="264.0" maxWidth="-Infinity" prefHeight="50.0" prefWidth="182.0" promptText="password" styleClass="textField" />
-      <TextArea fx:id="feedback" layoutX="25.0" layoutY="410.0" prefHeight="174.0" prefWidth="694.0" />
       <Button layoutX="6.0" layoutY="176.0" mnemonicParsing="false" onAction="#setMail" style="-fx-background-color: transparent;">
          <graphic>
             <FontAwesomeIcon glyphName="ENVELOPE_ALT" size="50" />
@@ -48,11 +46,7 @@
             <FontAwesomeIcon glyphName="LOCK" size="50" />
          </graphic>
       </Button>
-      <Button layoutX="10.0" layoutY="348.0" mnemonicParsing="false" onAction="#setFeed" style="-fx-background-color: transparent;">
-         <graphic>
-            <FontAwesomeIcon glyphName="EDIT" size="50" />
-         </graphic>
-      </Button>
+      <Button layoutX="10.0" layoutY="348.0" mnemonicParsing="false" onAction="#setFeed" style="-fx-background-color: transparent;" />
       <Text layoutX="265.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 50;" styleClass="textSubTitle" text="Settings">
          <font>
             <Font size="48.0" />
@@ -62,9 +56,10 @@
       <Line endX="678.73046875" endY="13.999984741210938" layoutX="75.0" layoutY="317.0" startX="-10.0" startY="13.999998092651367" styleClass="line" />
       <Hyperlink layoutX="77.0" layoutY="100.0" onAction="#signOut" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Sign Out" />
       <Hyperlink layoutX="80.0" layoutY="184.0" onAction="#setMail" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Edit Mail" />
-      <Hyperlink layoutX="79.0" layoutY="271.0" onAction="#setPswd" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Set Password" />
-      <Hyperlink layoutX="80.0" layoutY="351.0" onAction="#setFeed" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Leave a fedbeck" />
-      <FontAwesomeIcon glyphName="STAR" layoutX="504.0" layoutY="643.0" opacity="0.37" size="20" />
-      <Hyperlink layoutX="538.0" layoutY="611.0" opacity="0.37" style="-fx-text-fill: red; -fx-font-size: 30;" styleClass="hiperlink_signup" text="Leave a review" />
+      <Hyperlink layoutX="79.0" layoutY="271.0" onAction="#setPswd" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Edit Password" />
+      <Button layoutX="15.0" layoutY="344.0" mnemonicParsing="false" onAction="#setPswd" style="-fx-background-color: transparent;" />
+      <FontAwesomeIcon glyphName="CUTLERY" layoutX="16.0" layoutY="392.0" size="50" />
+      <Hyperlink layoutX="79.0" layoutY="350.0" onAction="#setPswd" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Edit Restaurant" />
+      <TextField fx:id="email1" layoutX="330.0" layoutY="349.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="412.0" promptText="mariorossi@gmail.com" styleClass="textField" />
    </children>
 </AnchorPane>
