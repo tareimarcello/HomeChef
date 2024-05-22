@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.ChatControllerInterf1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.ChatControllerInterf1">
     <children>
         <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="22.0" size="20" />
         <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
@@ -38,7 +38,7 @@
         <Line endX="349.9999694824219" endY="13.999998092651367" layoutX="64.0" layoutY="-14.0" startX="-64.0000228881836" startY="13.999998092651367" styleClass="line" translateY="682.0" />
         <Button layoutX="321.0" layoutY="38.0" mnemonicParsing="false" onAction="#touchedHome" prefHeight="58.0" prefWidth="58.0" styleClass="Back_Row">
             <graphic>
-                <FontAwesomeIcon fill="#fff6f6" glyphName="USER" size="40" text="" wrappingWidth="35.19999999999993" />
+                <FontAwesomeIcon fill="#fff6f6" glyphName="" size="40" text="" wrappingWidth="35.19999999999993" />
             </graphic>
          <padding>
             <Insets bottom="2.0" left="5.0" />
