@@ -86,7 +86,7 @@
         <Group layoutX="41.0" layoutY="651.0" />
         <ImageView fitHeight="234.0" fitWidth="281.0" layoutX="439.0" layoutY="526.0">
             <image>
-                <Image url="@../homepageEdit/photo/4369.png" />
+                <Image url="@../homepageEditChef/photo/4369.png" />
             </image>
         </ImageView>
         <PieChart fx:id="graphVisit" layoutX="373.0" layoutY="179.0" prefHeight="357.0" prefWidth="379.0" />

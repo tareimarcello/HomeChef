@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.HomepagePsychologistInterf2">
+    <children>
+        <Button layoutX="20.0" layoutY="442.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="27.0" styleClass="Label" textFill="WHITE" />
+      <Text fill="#377dff" layoutX="637.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textTitle" text="Homechef" wrappingWidth="206.94140625" />
+      <Button layoutX="480.0" layoutY="72.0" mnemonicParsing="false" onAction="#goToSettings" styleClass="Back_Row" translateX="800.0">
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="COG" size="20" />
+         </graphic>
+         <padding>
+            <Insets top="2.0" />
+         </padding>
+      </Button>
+      <Circle fill="DODGERBLUE" layoutX="40.0" layoutY="167.0" radius="48.0" stroke="BLACK" strokeType="INSIDE" styleClass="Back_Row" translateX="700.0" />
+      <FontAwesomeIcon fill="WHITE" glyphName="CUTLERY" layoutX="719.0" layoutY="185.0" size="50" wrappingWidth="42.64239501953125" />
+      <TextField fx:id="email" layoutX="484.0" layoutY="283.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="511.0" styleClass="textField" />
+      <Text fill="#377dff" layoutX="493.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signup" text="Name:" wrappingWidth="64.00372314453125" />
+      <Text fill="#377dff" layoutX="493.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signup" text="Best Dish:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="email1" layoutX="484.0" layoutY="403.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="511.0" styleClass="textField" />
+      <Text fill="#377dff" layoutX="493.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signup" text="Restaurant:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="email11" layoutX="484.0" layoutY="523.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="511.0" styleClass="textField" />
+      <Text fill="#377dff" layoutX="493.0" layoutY="626.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signup" text="Valutation:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Slider fx:id="posSL" layoutX="484.0" layoutY="655.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="14.0" prefWidth="494.0" showTickLabels="true" value="5.0" />
+      <Button layoutX="518.0" layoutY="688.0" mnemonicParsing="false" onAction="#save" prefHeight="76.0" prefWidth="134.0" style="-fx-font-size: 18;" styleClass="Button" text="Chat" />
+      <Button layoutX="790.0" layoutY="688.0" mnemonicParsing="false" onAction="#save" prefHeight="76.0" prefWidth="188.0" style="-fx-font-size: 18;" styleClass="Button" text="Check the booking" />
+    </children>
+</AnchorPane>

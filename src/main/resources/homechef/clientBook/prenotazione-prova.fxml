@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.CalendarBookingController">
+    <top>
+        <HBox spacing="10" alignment="CENTER" style="-fx-padding: 10;">
+            <Label text="Calendario Prenotazioni" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+        </HBox>
+    </top>
+
+    <center>
+        <VBox spacing="10" style="-fx-padding: 10;">
+            <DatePicker fx:id="datePicker" promptText="Seleziona una data" />
+            <ListView fx:id="bookingList" prefHeight="200" prefWidth="300" />
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox spacing="10" style="-fx-padding: 10;" alignment="CENTER">
+            <Button text="Nuova Prenotazione" onAction="#handleNewBooking" />
+            <Button text="Modifica Prenotazione" onAction="#handleEditBooking" />
+            <Button text="Elimina Prenotazione" onAction="#handleDeleteBooking" />
+        </HBox>
+    </bottom>
+
+    <right>
+        <VBox spacing="10" style="-fx-padding: 10;">
+            <Label text="Dettagli Prenotazione" />
+            <GridPane hgap="10" vgap="10">
+                <Label text="Nome Cliente:" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+                <TextField fx:id="clientNameField" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+
+                <Label text="Servizio:" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+                <TextField fx:id="serviceField" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+
+                <Label text="Ora:" GridPane.rowIndex="2" GridPane.columnIndex="0" />
+                <TextField fx:id="timeField" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+            </GridPane>
+            <Button text="Salva" onAction="#handleSaveBooking" />
+        </VBox>
+    </right>
+</BorderPane>

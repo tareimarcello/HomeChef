@@ -24,11 +24,6 @@
       <Text fill="#377dff" layoutX="96.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textTitle" text="HomeChef" />
       <Button layoutX="268.0" layoutY="350.0" minHeight="32.0" minWidth="106.0" mnemonicParsing="false" opacity="0.49" prefHeight="35.0" prefWidth="106.0" styleClass="bottonesfondo" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f4f4f4" height="26.0" layoutX="94.0" layoutY="240.0" stroke="#f4f4f4" strokeType="INSIDE" style="-fx-opacity: 1;" styleClass="bottonesfondo" width="200.0" />
-      <Button layoutX="35.0" layoutY="49.0" mnemonicParsing="false" onAction="#backTo" prefHeight="30.0" prefWidth="35.0" styleClass="Back_Row">
-         <graphic>
-            <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="20" />
-         </graphic>s
-      </Button>
       <ImageView fitHeight="41.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" x="371.0" y="-2.0">
          <image>
             <Image url="@../photo/battery.png" />
@@ -69,22 +64,21 @@
       </Text>
       <Slider fx:id="posSL" layoutX="37.0" layoutY="531.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="14.0" prefWidth="322.0" showTickLabels="true" value="5.0" />
       <Button layoutX="63.0" layoutY="575.0" mnemonicParsing="false" onAction="#save" prefHeight="35.0" prefWidth="97.0" style="-fx-font-size: 18;" styleClass="Button" text="Chat" />
-      <Button layoutX="132.0" layoutY="625.0" mnemonicParsing="false" onAction="#save" prefHeight="40.0" prefWidth="133.0" style="-fx-font-size: 18;" styleClass="Button" text="Book the chef" />
-      <Button layoutX="225.0" layoutY="575.0" mnemonicParsing="false" onAction="#save" prefHeight="40.0" prefWidth="143.0" style="-fx-font-size: 18;" styleClass="Button" text="Rate the chef" />
+      <Button layoutX="225.0" layoutY="575.0" mnemonicParsing="false" onAction="#save" prefHeight="40.0" prefWidth="153.0" style="-fx-font-size: 18;" styleClass="Button" text="Check booking" />
       <Line endX="349.9999694824219" endY="13.999998092651367" layoutX="64.0" layoutY="-14.0" startX="-64.0000228881836" startY="13.999998092651367" styleClass="line" translateY="682.0" />
-      <Button layoutX="-83.0" layoutY="-10.0" mnemonicParsing="false" onAction="#goToPersonalForm" prefHeight="44.0" prefWidth="146.0" styleClass="button_bar" translateX="75.0" translateY="692.0">
+      <Button layoutY="683.0" mnemonicParsing="false" onAction="#goToPersonalForm" prefHeight="44.0" prefWidth="146.0" styleClass="button_bar">
          <graphic>
             <FontAwesomeIcon fill="#377dff" glyphName="BOOK" opacity="0.5" size="25" />
          </graphic>
       </Button>
       <Button layoutX="133.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
          <graphic>
-            <FontAwesomeIcon fill="#377dff" glyphName="HOME" opacity="0.5" size="20" />
+            <FontAwesomeIcon fill="#377dff" glyphName="HOME" size="50" />
          </graphic>
       </Button>
-      <Button layoutX="267.0" layoutY="683.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="146.0" styleClass="button_bar">
+      <Button layoutX="267.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
          <graphic>
-            <FontAwesomeIcon fill="#377dff" glyphName="SEARCH" size="50" />
+            <FontAwesomeIcon fill="#377dff" glyphName="PAPER_PLANE" opacity="0.5" size="20" />
          </graphic>
       </Button>
    </children>

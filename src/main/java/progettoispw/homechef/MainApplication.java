@@ -26,7 +26,7 @@ public class MainApplication extends Application {
             if (size == ScreenSize.LAPTOP) {
                 root = FXMLLoader.load(getClass().getResource("login/interf2.fxml"));
             } else {
-                root = FXMLLoader.load(getClass().getResource("login/interf1.fxml"));
+                root = FXMLLoader.load(getClass().getResource("login/prenotazione-prova.fxml"));
             }
             stage.setScene(new Scene(root));
             stage.setTitle("Login");
