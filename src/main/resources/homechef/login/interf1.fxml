@@ -5,7 +5,6 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.LoginControllerInterf1">
@@ -20,7 +19,6 @@
         <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="21.0" size="20" />
         <Text layoutX="35.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink_signup" text="9.31" />
       <Text fill="#377dff" layoutX="96.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textTitle" text="Homechef" />
-      <Circle fill="#8290f1" layoutX="193.0" layoutY="193.0" radius="60.0" stroke="WHITE" strokeType="INSIDE" />
       <TextField fx:id="labUser" layoutX="23.0" layoutY="273.0" prefHeight="50.0" prefWidth="370.0" promptText="User" styleClass="textField" />
       <PasswordField fx:id="labPassword" layoutX="23.0" layoutY="337.0" prefHeight="50.0" prefWidth="370.0" promptText="Password" styleClass="textField">
          <padding>
@@ -52,9 +50,9 @@
             </Label>
          </content>
       </ScrollPane>
-      <ImageView fitHeight="88.0" fitWidth="83.0" layoutX="152.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="140.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@photo/icona-login.png" />
+            <Image url="@../signup/photo/cappello_cuoco.jpg" />
          </image>
       </ImageView>
     </children>
