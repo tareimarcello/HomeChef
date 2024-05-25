@@ -36,13 +36,13 @@
             </graphic></Button>
         <Button layoutX="133.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
             <graphic>
-                <FontAwesomeIcon fill="#377dff" glyphName="HOME" opacity="0.5" size="20" />
+                <FontAwesomeIcon fill="#377dff" glyphName="HOME" opacity="0.5" size="25" />
             </graphic></Button>
         <Line endX="349.9999694824219" endY="13.999998092651367" layoutX="64.0" layoutY="-14.0" startX="-64.0000228881836" startY="13.999998092651367" styleClass="line" translateY="682.0" />
-        <Text fx:id="withName" layoutX="90.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textContent_signup" text="Nome:" wrappingWidth="235.39027404785156" />
+        <Text fx:id="withName" layoutX="90.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textContent_signup" text="Name:" wrappingWidth="235.39027404785156" />
         <Button layoutX="10.0" layoutY="32.0" mnemonicParsing="false" onAction="#goBack" prefHeight="30.0" prefWidth="35.0" styleClass="Back_Row">
             <graphic>
-                <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="15" strokeWidth="0.5" />
+                <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="15" strokeWidth="0.5" text="" />
             </graphic>
         </Button>
         <Text layoutX="35.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink_signup" text="9.31" />
